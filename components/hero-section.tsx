@@ -18,8 +18,8 @@ export function HeroSection() {
               </h1>
               <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
                 Sensecure Integrated Solutions - Premier manufacturer and supplier of traffic signal systems, boom
-                barriers, and commercial displays for government projects. Trusted by 500+ clients across India with ISO
-                9001:2015 certification.
+                barriers, and commercial displays for government projects. Trusted by 1000+ clients across India with
+                ISO 9001:2015 certification.
               </p>
             </div>
 
@@ -56,7 +56,7 @@ export function HeroSection() {
                 <div className="flex justify-center mb-2">
                   <Users className="h-8 w-8 text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-primary">500+</div>
+                <div className="text-2xl font-bold text-primary">1000+</div>
                 <div className="text-sm text-muted-foreground">Projects</div>
               </div>
             </div>

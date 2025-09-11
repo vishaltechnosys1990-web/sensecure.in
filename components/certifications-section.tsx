@@ -114,7 +114,7 @@ export function CertificationsSection() {
 
             <div className="bg-primary/5 rounded-xl p-6 border border-primary/20">
               <div className="text-center space-y-2">
-                <div className="text-2xl font-bold text-primary">500+</div>
+                <div className="text-2xl font-bold text-primary">1000+</div>
                 <div className="text-sm font-medium">Successful Government Projects</div>
                 <div className="text-xs text-muted-foreground">Across 28 States in India</div>
               </div>
