@@ -17,16 +17,14 @@ export function AboutSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <Badge variant="outline" className="text-primary border-primary">
-                About TrafficTech Solutions
+                About "Sensecure"
               </Badge>
               <h2 className="text-3xl lg:text-5xl font-bold text-balance">
                 Pioneering Traffic Infrastructure
                 <span className="text-primary">  Since 2001</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
-                TrafficTech Solutions has been at the forefront of traffic infrastructure development in India for over
-                15 years. We specialize in designing, manufacturing, and supplying high-quality traffic management
-                systems for government projects across the nation.
+                Sensecure Integrated Solutions has been at the forefront of traffic infrastructure development in India for over 15 years. We specialize in designing, manufacturing, and supplying high-quality traffic management systems for government projects across the nation.
               </p>
             </div>
 
