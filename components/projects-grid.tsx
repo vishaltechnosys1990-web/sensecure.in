@@ -72,15 +72,14 @@ const projects = [
   },
 ]
 
-export function ProjectsSection() {
+export function ProjectsGrid() {
   return (
-    <section id="projects" className="py-20 bg-muted/30">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-balance">Major Government Projects</h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
-            Showcasing our successful implementations across India's major cities and highways, delivering reliable
-            traffic infrastructure solutions.
+          <h2 className="text-3xl lg:text-5xl font-bold mb-4">Featured Government Projects</h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Showcasing our successful implementations across India's major cities and highways
           </p>
         </div>
 
@@ -104,7 +103,6 @@ export function ProjectsSection() {
                   >
                     {project.status}
                   </Badge>
-                  <div className="text-right"></div>
                 </div>
 
                 <div className="space-y-2">
@@ -133,13 +131,6 @@ export function ProjectsSection() {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <Button size="lg" className="text-lg px-8">
-            View All Projects
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
         </div>
       </div>
     </section>
