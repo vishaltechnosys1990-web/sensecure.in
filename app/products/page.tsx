@@ -1,10 +1,11 @@
+"use client"
+
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import {
-  Traffic,
   Shield,
   Monitor,
   Volume2,
@@ -14,6 +15,7 @@ import {
   Leaf,
   Clock,
   Award,
+  Lightbulb,
 } from "lucide-react"
 
 interface ProductDetails {
@@ -42,7 +44,7 @@ const products: ProductDetails[] = [
     longDescription:
       "Our LED traffic signal lights represent the latest in traffic management technology. Designed to meet Indian government standards and international quality requirements, these systems provide reliable traffic control with energy-efficient LED technology.",
     image: "/led-traffic-signal-lights-system-with-red-yellow-g.jpg",
-    icon: Traffic,
+    icon: Lightbulb,
     features: [
       "LED Technology - Energy efficient and long-lasting",
       "Smart Controllers - Adaptive traffic management",
