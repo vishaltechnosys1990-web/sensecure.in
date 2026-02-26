@@ -65,7 +65,7 @@ export function Header() {
                 Home
               </a>
               <a
-                href="#products"
+                href="/products"
                 className="text-foreground hover:text-accent transition-colors duration-300 font-medium text-sm"
               >
                 Products
@@ -118,7 +118,7 @@ export function Header() {
               <a href="#home" className="block text-foreground hover:text-accent transition-colors font-medium">
                 Home
               </a>
-              <a href="#products" className="block text-foreground hover:text-accent transition-colors font-medium">
+              <a href="/products" className="block text-foreground hover:text-accent transition-colors font-medium">
                 Products
               </a>
               <a href="#about" className="block text-foreground hover:text-accent transition-colors font-medium">
