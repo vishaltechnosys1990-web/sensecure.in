@@ -89,10 +89,12 @@ export function ProductsSection() {
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" className="text-lg px-8">
-            View All Products
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <a href="/products">
+            <Button size="lg" className="text-lg px-8">
+              View All Products
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>
